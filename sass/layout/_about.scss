@@ -1,4 +1,10 @@
 .about {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+.about {
   &.section {
     padding-top: 0;
   }
