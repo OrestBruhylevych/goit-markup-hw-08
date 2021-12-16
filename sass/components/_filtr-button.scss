@@ -14,9 +14,9 @@
 .filtr-projects-list__item {
   margin-bottom: 15px;
   margin-right: 8px;
-  // &:last-child {
-  //   margin-right: 0;
-  // }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .filtr-projects-list__button {
