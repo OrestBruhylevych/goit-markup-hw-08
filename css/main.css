@@ -598,6 +598,13 @@ body {
   background-color: var(--footer-background-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer__wrap--tablet {
     display: flex;
@@ -610,6 +617,19 @@ body {
   padding-top: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .address-box {
+    margin-left: 76px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address-box {
+    margin-left: 0;
+    margin-right: 70px;
+  }
+}
+
 .footer__logo {
   display: block;
   margin-bottom: 20px;
@@ -617,7 +637,12 @@ body {
 
 .footer-address-list__item {
   display: flex;
-  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-address-list__item {
+    display: block;
+  }
 }
 
 .footer-address-list__link {
@@ -646,6 +671,22 @@ body {
 
 .add__box {
   padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .add__box {
+    padding-top: 65px;
+    padding-bottom: 102px;
+    margin-right: 89px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .add__box {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    margin-right: 0;
+  }
 }
 
 .add__text {
@@ -697,6 +738,13 @@ body {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .subscribe-form {
+    padding-top: 72px;
+    padding-bottom: 94px;
+  }
+}
+
 .subscribe-form__text {
   font-weight: 700;
   font-size: 14px;
@@ -706,6 +754,19 @@ body {
   text-transform: uppercase;
   color: var(--third-text-color);
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-form__text {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-form__wrap {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .subscribe-form__email {
@@ -726,6 +787,22 @@ body {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe-form__email {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe-form__email {
+    width: 358px;
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
 }
 
 .subscribe-form__btn {
