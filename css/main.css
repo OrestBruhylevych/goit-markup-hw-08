@@ -612,20 +612,25 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__wrap--tablet {
+    justify-content: center;
+  }
+}
+
 .address-box {
   padding-bottom: 60px;
   padding-top: 60px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .address-box {
-    margin-left: 76px;
+    margin-right: 165px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .address-box {
-    margin-left: 0;
     margin-right: 70px;
   }
 }
@@ -677,7 +682,6 @@ body {
   .add__box {
     padding-top: 65px;
     padding-bottom: 102px;
-    margin-right: 89px;
   }
 }
 
@@ -685,7 +689,6 @@ body {
   .add__box {
     padding-top: 72px;
     padding-bottom: 100px;
-    margin-right: 0;
   }
 }
 
