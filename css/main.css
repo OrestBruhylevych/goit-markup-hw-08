@@ -1297,12 +1297,18 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
-  transform: translateY(-100%);
+  transform: translateY(-500%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu.is-open {
   transform: translateY(0);
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu-container {
