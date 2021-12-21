@@ -147,12 +147,16 @@
 
 .agree-text {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
   display: flex;
   align-items: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
   span {
     width: 16px;
     height: 15px;
